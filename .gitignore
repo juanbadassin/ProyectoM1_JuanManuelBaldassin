@@ -1,0 +1,13 @@
+# Credenciales — nunca subir claves al repositorio
+*api_key*
+*.key
+.env
+
+# Python / Jupyter
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Sistema
+Thumbs.db
+.DS_Store
