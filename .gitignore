@@ -1,5 +1,5 @@
-# Credenciales — nunca subir claves al repositorio
-*api_key*
+# Credenciales (la clave de Yelp es de entrenamiento, provista por el curso,
+# y se incluye a propósito en yelp_api_key.txt)
 *.key
 .env
 

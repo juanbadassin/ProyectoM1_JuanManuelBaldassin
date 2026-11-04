@@ -32,10 +32,11 @@ ProyectoM1_Baldassin/
    `pandas`, `numpy`, `matplotlib`, `requests`, `jupyter`.
 2. Abrir los notebooks en orden (`1_` → `3_`). Todos son reproducibles sin
    credenciales porque los resultados intermedios están guardados en `Datasets/`.
-3. **API de Yelp (opcional):** para re-extraer los datos, definir la variable de
-   entorno `YELP_API_KEY` con una clave de [Yelp Fusion](https://www.yelp.com/developers)
-   y poner `REEXTRAER = True` en `2_API_Yelp.ipynb`. La clave nunca se escribe en
-   los notebooks ni se sube al repositorio.
+3. **API de Yelp (opcional):** para re-extraer los datos, poner `REEXTRAER = True`
+   en `2_API_Yelp.ipynb`. La clave de entrenamiento provista por el curso está
+   incluida en `yelp_api_key.txt` (raíz del repositorio) y el notebook la toma
+   automáticamente; también puede definirse la variable de entorno `YELP_API_KEY`,
+   que tiene prioridad.
 
 ## Hallazgos principales
 
